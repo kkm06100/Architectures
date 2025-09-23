@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" border="50" scale="3" compressed="false" locked="false" version="28.2.4">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="1426" dy="1143" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1901" dy="1391" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
@@ -178,7 +178,7 @@
             <mxPoint x="320.25" y="959" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OlqHOeAXy3FRhEp2WzW1-65" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Query side&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="OlqHOeAXy3FRhEp2WzW1-65" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Projection&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="499" y="837" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OlqHOeAXy3FRhEp2WzW1-67" value="original&amp;nbsp;&lt;br&gt;post data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
@@ -212,7 +212,7 @@
           <mxGeometry x="103.75" y="1839" width="233" height="107" as="geometry" />
         </mxCell>
         <mxCell id="hHeUjl5ZpuqxV36XK3zu-5" value="&lt;div&gt;Reaction&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- reactionType (LIKE/DISLIKE)&lt;/span&gt;&lt;/div&gt;- targetType (POST/COMMENT)&lt;br&gt;- targetId&lt;br&gt;- userId&lt;br&gt;- createdAt" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="377" y="1909" width="209" height="120" as="geometry" />
+          <mxGeometry x="389.74" y="1909" width="209" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hHeUjl5ZpuqxV36XK3zu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="hHeUjl5ZpuqxV36XK3zu-3" target="hHeUjl5ZpuqxV36XK3zu-2">
           <mxGeometry relative="1" as="geometry" />
@@ -312,9 +312,19 @@
             <mxPoint x="1058" y="1931" as="sourcePoint" />
             <mxPoint x="988" y="1954" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1057" y="1931" />
-              <mxPoint x="1057" y="1953" />
-              <mxPoint x="858" y="1953" />
+              <mxPoint x="1057" y="1998" />
+              <mxPoint x="858" y="1998" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hHeUjl5ZpuqxV36XK3zu-46" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="hHeUjl5ZpuqxV36XK3zu-3" target="hHeUjl5ZpuqxV36XK3zu-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1496" y="1728" as="sourcePoint" />
+            <mxPoint x="1135" y="1691" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="494" y="1699" />
+              <mxPoint x="494" y="1493" />
+              <mxPoint x="1009" y="1493" />
             </Array>
           </mxGeometry>
         </mxCell>
